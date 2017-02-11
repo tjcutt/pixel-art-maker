@@ -1,1 +1,39 @@
+.header {
 
+}
+
+.pixelSection {
+  width: 800px;
+  height: 400px;
+  display: block;
+  float: left;
+}
+
+.pixel {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  float: left;
+  display: inline-block;
+}
+
+.paletteSection {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 500px;
+  height: 80px;
+  display: block;
+  position: fixed;
+  clear: both;
+  bottom: 0;
+ clear: top;
+  border: 2px solid black;
+}
+
+.colors {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    float: left;
+    display: inline-block;
+}
